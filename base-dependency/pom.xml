@@ -13,7 +13,8 @@
     <packaging>pom</packaging>
     <name>base-dependency</name>
     <modules>
-        <module>base-dev-depencency</module>
+        <module>base-dev-dependency</module>
+        <module>mysql-dependency</module>
     </modules>
 
 </project>

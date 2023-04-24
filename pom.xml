@@ -19,8 +19,9 @@
     </properties>
 
     <modules>
-        <module>boot-kafka</module>
         <module>base-dependency</module>
+        <module>boot-kafka</module>
+        <module>boot-mysql</module>
     </modules>
 
 </project>
