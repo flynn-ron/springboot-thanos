@@ -13,4 +13,5 @@ public class BootMysqlApplication {
     public static void main(String[] args) {
         SpringApplication.run(BootMysqlApplication.class, args);
     }
+
 }

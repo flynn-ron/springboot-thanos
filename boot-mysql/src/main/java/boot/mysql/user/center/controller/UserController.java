@@ -21,7 +21,9 @@ public class UserController {
 
     @GetMapping("boot-mysql/user/center/getUser")
     public UcUser getUser(Integer id) {
-        return ucUserService.getById(id);
+        UcUser ucUser = ucUserService.getById(id);
+        log.info("用户信息={}", ucUser);
+        return ucUser;
     }
 
 }
