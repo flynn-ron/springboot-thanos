@@ -1,7 +1,10 @@
 package boot.mysql;
 
+import com.flynn.boot.starter.MyService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import javax.annotation.Resource;
 
 /**
  * @author ronghl
@@ -11,7 +14,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BootMysqlApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(BootMysqlApplication.class, args);
     }
+
+    @Resource
+    private MyService myService;
+
+
 
 }

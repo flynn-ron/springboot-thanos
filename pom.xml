@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.flynn</groupId>
-    <artifactId>boot.all</artifactId>
+    <artifactId>boot.thanos</artifactId>
     <version>1.0-RELEASE</version>
     <name>boot-all</name>
     <packaging>pom</packaging>
@@ -21,6 +21,7 @@
     <modules>
         <module>base-dependency</module>
         <module>boot-mysql</module>
+        <module>boot-starter</module>
     </modules>
 
 </project>
