@@ -22,6 +22,8 @@
         <module>base-dependency</module>
         <module>boot-mysql</module>
         <module>boot-starter</module>
+        <module>boot-java-basic</module>
+        <module>boot-kafka-mq</module>
     </modules>
 
 </project>
